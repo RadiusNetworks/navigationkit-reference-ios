@@ -1,0 +1,20 @@
+{
+  "V1": {
+    "latitude": "38.8987",
+    "longitude": "-77.02179",
+    "map_pixel_width": 816,
+    "map_pixel_height": 1056,
+    "pixels_per_meter": "4.686514",
+    "rotation_degrees": "0.0",
+    "map_corner_offset_x": "81.0",
+    "map_corner_offset_y": "228.0",
+    "overlay_pixel_offset_x": "0.0",
+    "overlay_pixel_offset_y": "0.0",
+    "hide_map": false,
+    "geolocation_enabled": false,
+    "crop_width": 816,
+    "crop_height": 1056,
+    "file_path": "MainConcourse.svg",
+    "name": "Verizon Main Concourse"
+  }
+}

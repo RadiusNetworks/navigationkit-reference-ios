@@ -1,0 +1,6 @@
+framework module NavigationKit {
+  umbrella header "NavigationKit.h"
+
+  export *
+  module * { export * }
+}

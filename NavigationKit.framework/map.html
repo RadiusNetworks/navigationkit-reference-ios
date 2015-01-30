@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=0.5,maximum-scale=10,minimum-scale=0.1">
+            <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                background: url("grid.svg");
+            }
+            #dot {
+                display: none;
+                position: absolute;
+                left: 30px;
+                top: 30px;
+                width: 20px;
+                height: 20px;
+            }
+            #booth {
+            	position:absolute;
+            	left: 0px;
+            	top: 0px;
+            	width: 0px;
+            	height: 0px;
+            	z-index: 1000;
+            }
+            #map {
+              width: 5000px;
+              height: 5000px;
+            }
+            </style>
+            <script src="./jquery-1.11.1.min.js"></script>
+            <script src="./purl.js"></script>
+            <script src="./maps.js"></script>
+            <script src="./platform.js"></script>
+    </head>
+    <body>
+        <div id="map_container">
+          <img id="map"/>
+        </div>
+        <div id='dot'></div>
+        <svg id='booth'/>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+	Download this file to 'ProximityKit.plist' in your project folder, then drag it into Xcode to configure the library.
+-->
+<dict>
+	<key>PKKitName</key>
+	<string>NavigationKit Reference</string>
+	<key>PKUserIdentifier</key>
+	<string>40</string>
+	<key>PKUserEmail</key>
+	<string>david@radiusnetworks.com</string>
+	<key>PKGlobalUserIdentifier</key>
+	<string>2</string>
+	<key>PKAPIToken</key>
+	<string>30a377179188d633f4945acfca76ee96f2dc97691e0cfd3db8ece9c0077a685d</string>
+	<key>PKKitURL</key>
+	<string>https://proximitykit.radiusnetworks.com/api/kits/4958</string>
+</dict>
+</plist>
