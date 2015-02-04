@@ -22,7 +22,13 @@
   self.mapView.delegate = self;
   self.navKitManager = ((AppDelegate *)[[UIApplication sharedApplication] delegate]).navKitManager;
   self.mapView.locationManager = self.navKitManager;
-  RNKMapConfig *map = self.navKitManager.maps[0];
+
+  RNKMapConfig *map;
+  if (self.navKitManager.currentMapLocation) {
+    map = self.navKitManager.currentMapLocation.map;
+  } else {
+    map = self.navKitManager.maps[0];
+  }
   [self.mapView loadMap:map];
   // Do any additional setup after loading the view, typically from a nib.
 }
