@@ -16,9 +16,9 @@
 		CA49D7C21A7BFD3900003663 /* NavigationKit_ReferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA49D7C11A7BFD3900003663 /* NavigationKit_ReferenceTests.m */; };
 		CA49D7D11A7C07E300003663 /* NavigationKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA49D7D01A7C07E300003663 /* NavigationKit.plist */; };
 		CA49D7D51A7C208200003663 /* map_config.json in Resources */ = {isa = PBXBuildFile; fileRef = CA49D7D41A7C208200003663 /* map_config.json */; };
-		CA49D7D71A7C209F00003663 /* V1.svg in Resources */ = {isa = PBXBuildFile; fileRef = CA49D7D61A7C209F00003663 /* V1.svg */; };
 		CA49D7E41A7C2ADB00003663 /* NavigationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA49D7E31A7C2ADB00003663 /* NavigationKit.framework */; };
 		CA49D7E51A7C2AEA00003663 /* NavigationKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA49D7E31A7C2ADB00003663 /* NavigationKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAF8D0601A92826C00F4A6B0 /* apegroup_office1.svg in Resources */ = {isa = PBXBuildFile; fileRef = CAF8D05F1A92826C00F4A6B0 /* apegroup_office1.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +60,8 @@
 		CA49D7C11A7BFD3900003663 /* NavigationKit_ReferenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationKit_ReferenceTests.m; sourceTree = "<group>"; };
 		CA49D7D01A7C07E300003663 /* NavigationKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NavigationKit.plist; sourceTree = "<group>"; };
 		CA49D7D41A7C208200003663 /* map_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map_config.json; sourceTree = "<group>"; };
-		CA49D7D61A7C209F00003663 /* V1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = V1.svg; sourceTree = "<group>"; };
 		CA49D7E31A7C2ADB00003663 /* NavigationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NavigationKit.framework; sourceTree = SOURCE_ROOT; };
+		CAF8D05F1A92826C00F4A6B0 /* apegroup_office1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = apegroup_office1.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		CA49D7D81A7C22CD00003663 /* NavigationKitConfig */ = {
 			isa = PBXGroup;
 			children = (
-				CA49D7D61A7C209F00003663 /* V1.svg */,
 				CA49D7D41A7C208200003663 /* map_config.json */,
+				CAF8D05F1A92826C00F4A6B0 /* apegroup_office1.svg */,
 				CA49D7D01A7C07E300003663 /* NavigationKit.plist */,
 			);
 			name = NavigationKitConfig;
@@ -236,9 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA49D7B11A7BFD3900003663 /* Main.storyboard in Resources */,
-				CA49D7D71A7C209F00003663 /* V1.svg in Resources */,
 				CA49D7D51A7C208200003663 /* map_config.json in Resources */,
 				CA49D7D11A7C07E300003663 /* NavigationKit.plist in Resources */,
+				CAF8D0601A92826C00F4A6B0 /* apegroup_office1.svg in Resources */,
 				CA49D7B61A7BFD3900003663 /* LaunchScreen.xib in Resources */,
 				CA49D7B31A7BFD3900003663 /* Images.xcassets in Resources */,
 			);
@@ -390,6 +390,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "NavigationKit-Reference/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +406,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "NavigationKit-Reference/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
