@@ -2,19 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PKKitName</key>
-	<string>NavigationKit Reference</string>
-	<key>PKUserIdentifier</key>
-	<string>40</string>
-	<key>PKUserEmail</key>
-	<string>david@radiusnetworks.com</string>
-	<key>PKGlobalUserIdentifier</key>
-	<string>2</string>
-	<key>PKAPIToken</key>
-	<string>30a377179188d633f4945acfca76ee96f2dc97691e0cfd3db8ece9c0077a685d</string>
-	<key>PKKitURL</key>
-	<string>https://proximitykit.radiusnetworks.com/api/kits/4958</string>
 	<key>NKMapConfigURL</key>
-	<string>https://s3.amazonaws.com/schika.radiusnetworks.com/nav_kit_reference_map_config.json</string>
+	<string>https://s3.amazonaws.com/schika.radiusnetworks.com/office_map_config.json</string>
+	<key>PKKitName</key>
+	<string>ApeGroup Map</string>
+	<key>PKUserIdentifier</key>
+	<string>2874</string>
+	<key>PKUserEmail</key>
+	<string>syoder@radiusnetworks.com</string>
+	<key>PKGlobalUserIdentifier</key>
+	<string>4204</string>
+	<key>PKAPIToken</key>
+	<string>0424af2cd0d918f69d8eb40b4b2e5499abe2ad21c7508bf6ac56308c73afb0af</string>
+	<key>PKKitURL</key>
+	<string>http://proximitykit.radiusnetworks.com/api/kits/5083</string>
 </dict>
 </plist>
